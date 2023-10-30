@@ -87,7 +87,7 @@ h1 {
 
 .principal p {
     color: #fff;
-    font-size: 100%;
+    font-size: 1.1em;
     align-items: center;
     margin-bottom: 15px
 }
@@ -133,11 +133,13 @@ h1 {
 
 .creador{
     padding-right: 25px;
+    font-size: 1.1em;
 }
 
 .michael{
     display: flex;
     align-items: center;
+    font-size: 1.1em;
 }
 
 .segundo-bloque{

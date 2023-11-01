@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="Reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
@@ -16,9 +17,9 @@
         </div>
         <nav>
           <ul class="list">
-            <li><a href="#galeria" class="link">Galeria</a></li>
+            <li><a href="galeria.html" class="link">Galeria</a></li>
             <li><a href="#personajes" class="link">Personajes</a></li>
-            <li><a href="#footer" class="link">Acerca del sitio</a></li>
+            <li><a href="inscribirse.html" class="link">Inscribirse</a></li>
           </ul>
         </nav>
       </header>
@@ -42,24 +43,7 @@
           </div>
       </article>
     </section>
-    <section class="segundo-bloque" id="galeria">
-      <div class="carousel">
-        <div class="wrap">
-          <ul>
-            <li> <img src="Imagenes/carrusel/Bjorn (1).jpg" /></li>
-            <li> <img src="Imagenes/carrusel/bjornyRagnar (1).jpg" /></li>
-            <li> <img src="Imagenes/carrusel/Floki.jpg" /></li>
-            <li> <img src="Imagenes/carrusel/FlokiyRagnar.jpg" /></li>
-            <li> <img src="Imagenes/carrusel/Ivar.jpg" /></li>
-            <li> <img src="Imagenes/carrusel/Lagertha.jpg" /></li>
-            <li> <img src="Imagenes/carrusel/Ragnar2.jpg" /></li>
-            <li> <img src="Imagenes/carrusel/RagYLag.jpg" /></li>
-            <li> <img src="Imagenes/carrusel/Ubbe.jpg" /></li>
-            <li> <img src="Imagenes/carrusel/Vikingos1.jpg" /></li>
-          </ul>
-        </div>
-      </div>
-    </section>
+
     <section class="tercer-bloque" id="personajes">
       <div class="personajes">
         <a href="bjorn.html">
@@ -80,17 +64,16 @@
         </a>
       </div>
     </section>
+    
     <footer>
-      <div id="footer">
-        <h5>GENERAL</h5>
-        <ul>
-          <li>
-            <a href="#galeria">Galeria</a><br>
-            <a href="#personajes">Personajes</a>
-          </li>
-        </ul>
-        <p>Posted by: <span>Matias Konig</span></p>
+      <div class="footer">
+      <div class="row">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
       </div>
+<<<<<<< Updated upstream
     </footer>
 
     <script>
@@ -209,5 +192,21 @@
       var carouselElm = document.querySelector('.carousel')
       new HoverCarousel(carouselElm)                          
     </script>
+=======
+      
+      <div class="row">
+      <ul>
+      <li><a href="galeria.html">Galeria</a></li>
+      <li><a href="#personajes">Personajes</a></li>
+      <li><a href="inscribirse.html">Inscribirse</a></li>
+      </ul>
+      </div>
+      
+      <div class="row">
+      All rights reserved || Designed By: Matias Konig
+      </div>
+      </div>
+      </footer>
+>>>>>>> Stashed changes
 </body>
 </html>

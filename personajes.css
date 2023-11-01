@@ -113,92 +113,13 @@ h1 {
 }
 
 .interprete{
-<<<<<<< Updated upstream
-=======
     color: white;
     text-decoration: underline;
->>>>>>> Stashed changes
     display: flex;
     align-items: center;
     font-size: 1.2em;
 }
 
-<<<<<<< Updated upstream
- /*Galeria*/
-
-
-:root {
-    --background: #3C343D;
-    --background-border: #6B626C;
-}
-
-.galeria {
-    font-family: Poppins;
-    height: 100vh;
-    padding: 32px;
-    display: grid;
-    place-items: center;
-    background-color: var(--background);
-}
-
-.gallery {
-    display: flex;
-    background-color: var(--background);
-    gap: 16px;
-}
-
-.card {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: 0px;
-    width: 400px;
-    height: 300px;
-    background-color: var(--background);
-    border-radius: 8px;
-    transition: 1000ms all;
-    transform-origin: center left;
-    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
-    outline: 1px solid var(--background);
-    overflow: hidden;
-}
-
-.card img {
-    height: 300px;
-    object-fit:cover;
-    border-radius: 4px;
-}
-
-.card:hover {
-    cursor: pointer;
-    transform: scale(1.15);
-}
-
-.card:hover figcaption {
-    font-size: 0.9rem;
-    position: absolute;
-    height: 80px;
-    width: 160px;
-    display: flex;
-    align-items: end;
-    background: linear-gradient(
-        to top, 
-        rgba(0, 0, 0, 0.9) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    color: white;
-    left: 0px;
-    bottom: 0px;
-    padding-left: 12px;
-    padding-bottom: 10px;
-}
-
-.card:hover ~ .card {
-    font-weight: bold;
-    cursor: pointer;
-    transform: translateX(50px);
-}
-=======
 
 
 .footer{
@@ -254,5 +175,4 @@ h1 {
     margin:0% 3%;
     }
     }
->>>>>>> Stashed changes
 
